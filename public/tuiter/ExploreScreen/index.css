@@ -1,15 +1,16 @@
+/*bootstrap*/
 .border {
     border: 1px solid #6a7178 !important;
 
 }
 
 .list-group-item{
-    background-color: black;
-    color: #6a7178;
+    background-color: #141617;
+    color: white;
 }
 .list-group-item.active{
-    background-color: black;
-    border-color: black;
+    background-color: #2198e3;
+    border-color: #2198e3;
     font-weight: bold;
 }
 
@@ -34,8 +35,8 @@
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
     color: white;
-    background-color: black;
-    border-color: black black;
+    background-color: #2198e3;
+    border-color: #2198e3 #2198e3;
     border-bottom: solid 3px #2198e3;
 }
 
@@ -87,7 +88,7 @@ img.wd-rounded-corners-all-around {
     border: 1px #6a7178;
     color: white;
     font-family: "Arial", sans-serif;
-    background-color: #222429;
+    background-color: white;
 }
 .wd-search-panel-input::placeholder {
     color: #6a7178;
@@ -101,8 +102,8 @@ img.wd-rounded-corners-all-around {
 }
 
 .wd-follow-btn {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #1da1f2;
 }
 
 .wd-option-button {
@@ -128,7 +129,7 @@ h3.wd-bookmark-title, p.wd-bookmark-title {
 }
 
 .wd-gear-icon a:hover, .wd-gear-icon a:visited, .wd-gear-icon a:link, .wd-gear-icon a:active  {
-    color: white;
+    color: #1da1f2;
     text-decoration: none;
 }
 
@@ -366,5 +367,5 @@ a.wd-navigation-panel-inactive:hover, a.wd-navigation-panel-inactive:visited, a.
 }
 
 .wd-background-grey {
-    background-color: #222429;
+    background-color: #141617;
 }
