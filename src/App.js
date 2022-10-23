@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HelloWorld from './components/hello-world';
+import HelloWorld from './labs';
 import Labs from './labs';
 import Tuiter from "./components/tuiter/tuiter";
 import HomeScreen from './components/tuiter/HomeScreen';
