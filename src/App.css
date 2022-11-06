@@ -95,6 +95,10 @@
     background-color: white;
 }
 
+.wd-whatshappening-textarea:focus {
+    color: white
+}
+
 /*fontawesome*/
 .fa-stack {
     height: 1.5em;
@@ -201,6 +205,68 @@ a.wd-navigation-panel-inactive:hover, a.wd-navigation-panel-inactive:visited, a.
 .wd-circle-icon > img {
     width: 100%;
     height: 100%;
+}
+
+.wd-profile-circle-icon-div {
+    position: absolute;
+    left: 5%;
+    bottom: 2%;
+}
+
+.wd-profile-circle-icon {
+    max-width: 30%;
+    max-height: 30%;
+    border: 3px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.wd-profile-banner-div {
+    height: 55%;
+    max-height: 300px;
+}
+
+.wd-profile-banner {
+    min-height: 200px;
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.wd-profile-edit-circle-icon {
+    max-width: 30%;
+    max-height: 30%;
+    border: 3px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 0px;
+    filter: contrast(50%);
+}
+
+.wd-profile-edit-icon-update {
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    color: white;
+}
+
+.wd-profile-edit-banner-div {
+    height: 40%;
+    max-height: 300px;
+}
+
+.wd-profile-edit-banner {
+    min-height: 200px;
+    max-width: 100%;
+    max-height: 250px;
+    filter: contrast(50%);
+}
+
+.wd-profile-edit-banner-update {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    color: white;
 }
 
 
