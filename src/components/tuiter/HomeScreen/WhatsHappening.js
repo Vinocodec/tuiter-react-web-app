@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { createTuit } from '../../actions/tuitsActions';
+import { createTuit } from '../../services/tuits-thunks';
 
 const WhatsHappening = () => {
     let [newTuit, setNewTuit] = useState({tuit: ''});

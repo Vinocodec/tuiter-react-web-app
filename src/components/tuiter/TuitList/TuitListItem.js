@@ -2,7 +2,7 @@ import React from 'react';
 import SummaryPicture from './SummaryPicture';
 import { useDispatch } from 'react-redux';
 import TuitStats from './TuitStats';
-import { deleteTuit } from '../../actions/tuitsActions';
+import { deleteTuit } from '../../services/tuits-thunks';
 
 const TuitListItem = ({tuit}) => {
 
