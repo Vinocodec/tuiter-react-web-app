@@ -11,7 +11,7 @@ const WhatsHappening = () => {
         <>
             <div className="row mb-2">
                 <div className="col-1 justify-content-center">
-                    <img className="wd-circle-icon" src="/images/elon_musk.jpeg" alt="user-icon"/>
+                    <img className="wd-circle-icon" src="/images/avatar.PNG" alt="user-icon"/>
                 </div>
                 <div className="col-11 ps-3">
         <textarea className="form-control border-1 bg-black wd-font-white wd-whatshappening-textarea"

@@ -18,4 +18,5 @@ const TuitList = () => {
   );
 };
 
+
 export default TuitList;
